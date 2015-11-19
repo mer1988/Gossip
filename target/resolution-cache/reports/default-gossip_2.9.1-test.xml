@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="gossip_2.9.1"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150921223158"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-actor">
+			<revision name="2.0.1" status="release" pubdate="20150501134401" resolver="Typesafe Repository" artresolver="Typesafe Repository" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2126" time="725" location="/Users/Migue/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml" searched="true" original-local-location="/Users/Migue/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.1/akka-actor-2.0.1.pom"/>
+				<caller organisation="default" name="gossip_2.9.1" conf="test, compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor" type="jar" ext="jar" status="successful" details="" size="1841418" time="12497" location="/Users/Migue/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.1/akka-actor-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1-1" status="release" pubdate="20120304100830" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="1741" time="199" location="/Users/Migue/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1-1.xml" searched="true" original-local-location="/Users/Migue/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom"/>
+				<caller organisation="default" name="gossip_2.9.1" conf="test, compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor" conf="default, compile, runtime, master" rev="2.9.1-1" rev-constraint-default="2.9.1-1" rev-constraint-dynamic="2.9.1-1" callerrev="2.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="8847209" time="3938" location="/Users/Migue/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.1" status="release" pubdate="20110831043953" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="1427" time="275" location="/Users/Migue/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="true" original-local-location="/Users/Migue/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<evicted-by rev="2.9.1-1"/>
+				<caller organisation="default" name="gossip_2.9.1" conf="test, compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
